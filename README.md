@@ -2,7 +2,7 @@
 
 A [Hyperclick](https://github.com/facebook-atom/hyperclick) provider for Pawn.
 
-![Preview](https://i.imgur.com/z7uMNxi.gifv)
+![Preview](https://i.imgur.com/z7uMNxi.gif)
 
 
 ## Usage
