@@ -11,7 +11,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-		"atom-package-deps": "^4.4.1"
+		"atom-package-deps": "^4.4.1",
+		"path": "^0.12.7"
   },
 	"package-deps": [
     "hyperclick"
