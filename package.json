@@ -1,27 +1,27 @@
 {
-  "name": "hyperclick-pawn",
-  "main": "./lib/hyperclick-pawn",
-  "version": "0.0.0",
-  "description": "Hyperclick support for Pawn",
-  "keywords": [
-  ],
-  "repository": "https://github.com/Renato-Garcia/hyperclick-pawn",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
+	"name": "pawn-hyperclick",
+	"main": "./lib/pawn-hyperclick",
+	"version": "0.0.0",
+	"description": "Hyperclick support for Pawn",
+	"keywords": [
+	],
+	"repository": "https://github.com/Renato-Garcia/pawn-hyperclick",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
 		"atom-package-deps": "^4.4.1",
 		"path": "^0.12.7"
-  },
+	},
 	"package-deps": [
-    "hyperclick"
-  ],
+		"hyperclick"
+	],
 	"providedServices": {
-    "hyperclick.provider": {
-      "versions": {
-        "0.0.0": "getProvider"
-      }
-    }
-  }
+		"hyperclick.provider": {
+			"versions": {
+				"0.0.0": "getProvider"
+			}
+		}
+	}
 }
